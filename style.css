@@ -162,20 +162,31 @@ button {
   border: none;
   border-radius: 5px;
   color: white;
+  border: solid 2px orange;
   background-color: orange;
   margin-top: 20px;
+  transition: 0.5s;
 }
 
 button:hover {
   background-color: white;
   color: orange;
-  border: solid 2px orange;
   cursor: pointer;
 }
 
-a {
+.log-in {
   color: orange;
   text-decoration: none;
+}
+
+a:not(.log-in) {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:not(.log-in):hover {
+  color: orange;
 }
 
 .password {
