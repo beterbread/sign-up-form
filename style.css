@@ -82,6 +82,27 @@ img {
   
 
 /*right section*/
+p, .row, button {
+  margin-left: 20px;
+}
+
+em {
+  font-style: italic; 
+}
+
+.right-section p:nth-child(4) {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.right-section p:last-child {
+  margin-top: 20px;
+}
+
+.form-container p:first-child {
+  padding-top: 15px;
+}
+
 .right-section {
   display: flex;
   flex-direction: column;
@@ -103,7 +124,12 @@ label {
 .row {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 40px;
+  padding-top: 10px;
+}
+
+.row:last-of-type {
+  padding-bottom: 15px;
 }
 
 .col {
@@ -118,6 +144,7 @@ button {
   border-radius: 5px;
   color: white;
   background-color: orange;
+  margin-top: 30px;
 }
 
 button:hover {
