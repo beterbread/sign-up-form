@@ -44,6 +44,7 @@ label {
 
 .container-two {
   padding-bottom: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .row, .container-two, label{
@@ -78,6 +79,13 @@ button {
   background-color: orange;
 }
 
+button:hover {
+  background-color: white;
+  color: orange;
+  border: solid 2px orange;
+  cursor: pointer;
+}
+
 /*Text*/
 p {
   max-width: 600px;
@@ -95,4 +103,5 @@ p {
 
 a {
   color: orange;
+  text-decoration: none;
 }
