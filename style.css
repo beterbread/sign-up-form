@@ -11,6 +11,7 @@ div {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #F9F9F9;
 }
 
 /*Image section*/
@@ -22,7 +23,7 @@ div {
 img {
   object-fit: cover;
   height: 100vh;
-  width: auto;
+  width: 40vw;
 }
 
 .caption {
@@ -37,26 +38,28 @@ img {
 }
 
 /*Form section*/
-
-fieldset {
-  border: none;
-}
-
 label {
   font-size: 12px;
 }
 
-fieldset {
-  margin: 0;
-  padding: 0;
+.container-two {
+  padding-bottom: 10px;
 }
 
-legend, .row{
+.row, .container-two, label{
+  background-color: white;
+}
+
+.row, button {
   margin-left: 20px;
 }
 
-legend {
-  padding: 0;
+.row {
+  margin-top: 5px;
+}
+
+button { 
+  margin-top: 20px;
 }
 
 .row {
@@ -79,4 +82,17 @@ button {
 p {
   max-width: 600px;
   margin: 10px 20px;
+}
+
+.know {
+  margin-bottom: 30px;
+}
+
+.already {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+a {
+  color: orange;
 }
