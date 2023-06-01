@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  margin: 0;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+
+fieldset {
+  border: none;
+}
+
+.container {
+  position: relative;
+}
+
+img {
+  object-fit: cover;
+  height: 500px;
+  width: 300px;
+}
+
+.caption {
+  color: white;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}

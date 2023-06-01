@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="bg.jpg">
+    <p class="caption">Photo by Unma Desai on Unsplash</p>
+  </div>
+  <div>
+    <p>This is not a real online service! You know you need something 
+    like this in your life to help you realize your deepest dreams. 
+    Sign up <em>now</em> to get started.</p>
+    <form method="post">
+      <fieldset>
+        <legend>Let's do this!</legend>
+        <div class="row">
+          <div class="col">
+            <label for="first_name">First name</label>
+            <input type="text" name="first_name">  
+          </div>
+          <div class="col">
+            <label for="last_name">Last name</label>
+            <input type="text" name="last_name">   
+          </div> 
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="email">Email</label>
+            <input type="email" name="email">
+          </div>
+          <div class="col">
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="password">Password</label>
+            <input type="password" name="password">
+          </div>
+          <div class="col">
+            <label for="confirm">Confirm password</label>
+            <input type="password" name="confirm">  
+          </div>
+        </div>
+      </fieldset>
+      <button type="submit">Create Account</button>
+    </form>
+    <p>Already have an account? <a>Log in</a></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
