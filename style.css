@@ -194,3 +194,7 @@ a:not(.log-in):hover {
   margin-top: 2px;
   font-size: 10px;
 }
+
+.caption {
+  margin: 0;
+}
