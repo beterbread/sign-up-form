@@ -81,8 +81,8 @@ img {
 }
   
 /*right section*/
-p:not(.password), .row, button {
-  margin-left: 20px;
+p:not(.caption):not(.password), .row, button {
+    margin-left: 20px;
 }
 
 em {
@@ -193,8 +193,4 @@ a:not(.log-in):hover {
   color: #cc0000;
   margin-top: 2px;
   font-size: 10px;
-}
-
-.caption {
-  margin: 0;
 }
